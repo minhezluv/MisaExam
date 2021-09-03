@@ -1,0 +1,92 @@
+    input {
+        padding-left: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 16px;
+        border-radius: 1px;
+        outline: none;
+        border: 1px solid #BBBBBB;
+    }
+    
+    input::placeholder {
+        font-size: 11px;
+    }
+    
+    input:focus {
+        border-color: #019160;
+    }
+    
+    input:focus::placeholder {
+        color: transparent;
+    }
+    
+    .input-left {
+        margin-left: 16px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #BBBBBB;
+    }
+    
+    .input-search:active {
+        border: 1px solid #019160;
+    }
+    
+    .input-right {
+        width: 225px;
+        padding-left: 16px;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        /* padding-right: 32px; */
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #BBBBBB;
+        /* text-align: right;*/
+    }
+    
+    .input-right-box {
+        position: relative;
+    }
+    
+    .input-right-box .input-right-item {
+        position: absolute;
+        top: 0;
+        right: 16px;
+        height: 100%;
+        width: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-family: MISAGoogleSans-Italic;
+    }
+    /* input.input-image{
+    width: 40px;
+    height: 40px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #BBBBBB;
+    background-color: cadetblue;
+} */
+    /* employee manager  */
+    
+    input[type="file"] {
+        display: none;
+    }
+    
+    .input-dialog-employee {
+        border: 1px solid #bbbbbb;
+        height: 18px;
+    }
+    
+    input[type="date"] {
+        padding-right: 5px;
+        width: 128px;
+    }
+    
+    .input-dialog-employee#EmployeeCode {
+        width: 80px;
+    }

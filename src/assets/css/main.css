@@ -1,0 +1,101 @@
+@import url('../css/base/Paging.css');
+@import url('../css/base/Filter-bar.css');
+@import url('../css/base/Button.css');
+@import url('../css/base/Input.css');
+@import url('../css/base/Table.css');
+@import url('../css/base/Text-box.css');
+@import url('../css/layout/Menu.css');
+@import url('../css/layout/Header.css');
+@import url('../css/layout/Content.css');
+@import url('../css//base/Icon.css');
+@import url('../css/base/Dropdown.css');
+@import url('../css//base/Dialog.css');
+body {
+    font-family: notosans-regular;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: notosans-regular;
+    src: url("../fonts/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: notosans-bold;
+    src: url("../fonts/notosans-bold.3ede5aff.woff2");
+}
+
+@font-face {
+    font-family: notosans-italic;
+    src: url("../fonts/notosans-italic.1c1aaac9.woff2");
+}
+
+@font-face {
+    font-family: notosans-semibold;
+    src: url("../fonts/notosans-semibold.df3e6dc4.woff2");
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.left-16 {
+    margin-left: 16px;
+}
+
+.right-16 {
+    margin-right: 16px;
+}
+
+.left-32 {
+    margin-left: 32px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.page-icon {
+    margin-left: 6px;
+}
+
+.page-icon {
+    cursor: pointer;
+}
+
+.page-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-icon {
+    width: 24px;
+    height: 24px;
+}

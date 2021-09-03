@@ -1,0 +1,162 @@
+.paging {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    height: 46px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paging__right,
+.paging__direction,
+.paging__direction-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paging__right .dropdown {
+    margin-right: 16px;
+}
+
+.paging__direction-item {
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.paging-previous {
+    margin-right: 13px;
+}
+
+.paging-next {
+    margin-left: 13px;
+}
+
+.paging-num-selected {
+    border: 1px solid #babec5;
+    font-family: 'Notosans-bold', sans-serif;
+    border-radius: 2px;
+}
+
+.paging-text-disable {
+    cursor: default;
+    opacity: 0.5;
+}
+
+
+/* .paging-bar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 56px;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.paging-bar .paging-left {
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    min-width: 220px;
+}
+
+.paging-bar .paging-left .paging-left-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    align-content: center;
+    text-align: left;
+    padding-right: 32px;
+}
+
+.paging-bar .paging-right {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    min-width: 220px;
+}
+
+.paging-bar .paging-right .paging-right-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    text-align: right;
+}
+
+.paging-bar .pagination {
+    display: inline-block;
+    justify-self: center;
+    height: 100%;
+    width: 472px;
+}
+
+.paging-bar .pagination-number {
+    display: inline-block;
+    justify-self: center;
+    position: absolute;
+    height: 100%;
+    width: 224px;
+    align-content: center;
+}
+
+.paging-left-number {
+    font-weight: bold;
+}
+
+.paging-right .paging-right-number {
+    font-weight: bold;
+} */
+
+
+/* .paging-bar .pagination .pagination-left{
+    width: 10%;
+    height: 56px;
+    display: inline;
+}
+.paging-bar .pagination .pagination-center{
+  
+    display: inline;
+    height: 100%;
+    width: 200px;
+}
+
+.paging-bar .pagination .pagination-right{
+    display: inline;
+    margin-right: 0px;
+    width: 10%;
+    height: 56px;
+} */
+
+
+/* .paging-bar .pagination a {
+    align-content: center;
+    color: black;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    background-size: contain;
+    align-items: center;
+    border:1px solid #bbbbbb;
+    text-align: center;
+    margin-left: 8px
+  } */
+
+
+/* .pagination a.active {
+    background-color: #019160;
+  }
+
+.pagination a:hover:not(.active) {
+    background-color: #e5e5e5;
+  } */

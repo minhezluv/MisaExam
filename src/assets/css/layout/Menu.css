@@ -1,0 +1,40 @@
+.menu {
+    width: 178px;
+    height: calc(100vh - 49px);
+    background-color: #393a3d;
+    border-right-color: #cccccc;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.menu .menu-item {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    background-color: #393a3d;
+    color: white;
+    padding-left: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: notosans-regular;
+}
+
+.menu .menu-item.menu-item-select {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.menu .menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.menu .menu-icon.menu-icon-active {
+    background-color: #019160;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+}

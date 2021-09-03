@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px;
+}
+
+.header .header-left {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 178px;
+    height: 48px;
+    border-right: 1px solid #ccc;
+    background-color: #393a3d;
+}
+
+.header .header-left .toggle {
+    margin: 12px 10px 12px 42px;
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -428px -92px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.header .header-left .logo {
+    height: 32px;
+    width: 96px;
+    background-image: url('../../img/Logo_Module_TiengViet_White.66947422.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header .header-right {
+    display: flex;
+    width: calc(100% - 178px);
+    height: 48px;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    justify-content: space-between;
+}
+
+.header-company-list {
+    border-color: white;
+    font-size: 15px;
+    font-family: MISAGoogleSans-Bold;
+    display: flex;
+    align-items: center;
+}
+
+.header__branch,
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header-company-list .page-icon {
+    padding-right: 20px;
+}
+
+.header__branch-name {
+    font-size: 14px;
+    font-family: 'Notosans-semibold';
+    padding-right: 10px;
+}
+
+.header__branch,
+.header-page .page-icon,
+.header__user {
+    cursor: pointer;
+}
+
+.header__icon-small-nav {
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -847px -35px;
+    width: 16px;
+    height: 14px;
+}
+
+.header__icon-branch-work {
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -1129px -365px;
+    width: 14px;
+    height: 8px;
+}
+
+.account,
+.header__user {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    padding-right: 20px;
+}
+
+.header__icon-notify {
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+    width: 22px;
+    height: 25px;
+}
+
+.header__icon-user {
+    border-radius: 50%;
+    margin: 0 5px 0 20px;
+}
+
+.header__icon-user {
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -352px -894px;
+    width: 32px;
+    height: 32px;
+}
+
+.header__icon-user-menu {
+    background: url('../../img/Sprites.64af8f61.svg') no-repeat -1078px -38px;
+    width: 9px;
+    height: 6px;
+}

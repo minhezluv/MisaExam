@@ -1,0 +1,92 @@
+.dialog .dialog-content {
+    width: 800px;
+    height: 545px;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.content-text-modal {
+    font-family: MISAGoogleSans-Bold;
+    width: 227px;
+    padding-top: 20px;
+}
+
+.dialog .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .5;
+    z-index: 1000;
+}
+
+.dialog .dialog-content .dialog-content-header {
+    height: 49px;
+    border: 1px solid white;
+    border-radius: 4px 4px 0 0px;
+    padding-left: 24px;
+    font-size: 20px;
+}
+
+.form-element {
+    width: 100%;
+    height: 45%;
+    margin-top: 32px;
+}
+
+.form-row {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-row .form-row-col {
+    margin-left: 16px;
+    width: 47%;
+    display: flex;
+}
+
+.form-row-col .element {
+    margin-right: 10px;
+}
+
+.dialog .dialog-content .dialog-content-footer {
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    background-color: #e9ebee;
+    bottom: 0;
+    border-radius: 0 0 4px 4px;
+    align-items: center;
+    display: flex;
+}
+
+.dialog .dialog-content .dialog-content-left .input-image-title {
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 25px;
+}
+
+.m-asterisk {
+    color: red;
+}
+
+.dialog-show {
+    display: none;
+}
+
+.dialog-footer-button {
+    padding: 10px 24px 10px;
+    display: flex;
+    position: fixed;
+    right: 0;
+}

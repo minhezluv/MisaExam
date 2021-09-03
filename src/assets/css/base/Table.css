@@ -1,0 +1,192 @@
+/* Checkbox */
+
+.delete-box {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 15px;
+    height: 23px;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.delete-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    padding: 0 0 0 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.delete-box:hover input~.checkmark {
+    background-color: #E5E5E5;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.delete-box input:checked~.checkmark {
+    background-color: #019160;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.delete-box input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.delete-box .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.scroll {
+    position: relative;
+    background-color: white;
+    border-spacing: 0;
+    padding: 0 16px;
+}
+
+table.scroll tbody {
+    height: calc(100vh - 259px);
+    /* overflow: auto; */
+    /* display: block; */
+    width: 100%;
+}
+
+table.scroll thead {
+    /* top: 0;
+    left: 0;
+    padding: 0 10px; */
+    white-space: nowrap;
+    display: table-header-group;
+    /* display: block; */
+    /* overflow-x: auto; */
+}
+
+tbody tr {
+    text-align: left;
+    height: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.07s ease-in-out;
+}
+
+tbody tr td {
+    padding: 0 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #bbbbbb;
+    z-index: 4;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+    border-left: none;
+}
+
+thead tr th {
+    padding: 0 10px;
+    white-space: nowrap;
+    height: 33px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #eceef1;
+    z-index: 5;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+    border-left: none;
+}
+
+thead tr th:first-child {
+    padding-left: 16px;
+}
+
+tbody tr td:first-child {
+    padding-left: 16px;
+    padding-right: 10px;
+}
+
+
+/* tbody tr :last-child{
+    border-bottom: none;
+} */
+
+tbody tr:hover {
+    background-color: #E9EBEE;
+}
+
+tbody tr.selected {
+    background-color: #EBF9F4;
+}
+
+.grid-employee {
+    width: 100%;
+    height: calc(100vh - 245px);
+    /* margin-left: 16px; */
+    overflow: auto;
+    background-color: #f4f5f8;
+}
+
+.grid-employee::-webkit-scrollbar-track-piece {
+    margin-top: 53px;
+    background-color: #bbbbbb;
+}
+
+.grid-employee::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.table-header {
+    background-color: white;
+    z-index: 5;
+}
+
+table tbody.scroll-table {
+    /* overflow: auto; */
+}
